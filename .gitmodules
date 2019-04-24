@@ -1,3 +1,6 @@
 [submodule "lab_2_cmake_gtest/googletest"]
 	path = lab_2_cmake_gtest/googletest
 	url = https://github.com/google/googletest
+[submodule "lab_3_calculator/tests/googletest"]
+	path = lab_3_calculator/tests/googletest
+	url = https://github.com/google/googletest
