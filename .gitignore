@@ -1,0 +1,23 @@
+# Specify filepatterns you want git to ignore.
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.exe
+*.log
+*.tlog
+*.svclog
+*.obj
+*.xml
+*.suo
+*.ipch
+*.ilk
+*.pdb
+
+**/.vs/
+**/build
+
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64
+**/x86
