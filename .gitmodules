@@ -4,3 +4,6 @@
 [submodule "lab_3_calculator/tests/googletest"]
 	path = lab_3_calculator/tests/googletest
 	url = https://github.com/google/googletest
+[submodule "lab_4_hamming74_coder/test/googletest"]
+	path = lab_4_hamming74_coder/test/googletest
+	url = https://github.com/google/googletest
