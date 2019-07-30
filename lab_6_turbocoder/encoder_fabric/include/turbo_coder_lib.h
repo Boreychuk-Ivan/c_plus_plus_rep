@@ -1,7 +1,9 @@
 #include <vector>
 #include <iostream>
+#include "hamming_encoder_lib.h"
 
 using Bit_t = uint8_t;
+
 
 class Constituent_Encoder
 {
@@ -82,7 +84,7 @@ public:
 };
 
 
-class Turbo_Encoder
+class Turbo_Encoder : public I_Encoder
 {
 private:
     Constituent_Encoder    m_coder_1;

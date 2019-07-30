@@ -25,8 +25,7 @@ T = num_invals+L;
 coder_in_data = boolean(coder_in_data);
 coder_in_ts = timeseries(coder_in_data);
 
-simOut = sim('Turbo');
-% simOut = sim('RSC_1_2');
+simOut = sim('Turbo_coder');
 
 save coder_out;
 % load coder_out;
