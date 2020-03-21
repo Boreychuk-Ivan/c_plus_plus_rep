@@ -23,6 +23,8 @@ void StartCalculation(std::string input_string, exprcontainer_t& output_expressi
 		std::remove_if(input_string.begin(), input_string.end(), isspace),
 		input_string.end());
 
+    std::replace(input_string.begin(), input_string.end(), ',','.');
+
 	exprcontainer_t splitted_formulas;
 	SplitString(input_string, splitted_formulas, ';');
 
